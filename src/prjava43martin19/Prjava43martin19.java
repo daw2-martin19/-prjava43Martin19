@@ -33,7 +33,7 @@ public class Prjava43martin19 extends Frame
         // "this" Frame adds "this" object as a WindowEvent listener 
  
       setTitle("prjava43martin19");  // "this" Frame sets title 
-      setSize(250, 100);        // "this" Frame sets initial size 
+      setSize(450, 100);        // "this" Frame sets initial size 
       setVisible(true);         // "this" Frame shows 
    } 
  
