@@ -1,8 +1,8 @@
 package prjava43martin19; 
 import java.awt.*;        // using AWT containers and components 
-import java.awt.event.*;  // using AWT events and listener interfaces 
-import java.net.*;
-
+        import java.awt.event.*;  // using AWT events and listener interfaces 
+        import java.io.*;
+ 
 // An AWT GUI program inherits the top-level container java.awt.Frame 
 public class Prjava43martin19 extends Frame 
       implements ActionListener, WindowListener { 
@@ -34,7 +34,7 @@ public class Prjava43martin19 extends Frame
         // "this" Frame adds "this" object as a WindowEvent listener 
  
       setTitle("prjava43martin19");  // "this" Frame sets title 
-      setSize(250, 100);        // "this" Frame sets initial size 
+      setSize(450, 100);        // "this" Frame sets initial size 
       setVisible(true);         // "this" Frame shows 
    } 
  
